@@ -16,8 +16,11 @@ Uso:
 
 Ejemplo:
   
-  En el script se establecerá la variable host.
+  En el script se establecerá la variable host en la linea 5.
+  
+  ```javascript
   host = "https://misitiovulnerable.com"
+  ```
   
   Para ejecutar.
 ```javascript
