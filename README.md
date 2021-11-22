@@ -9,7 +9,7 @@ Uso:
 En el parámetro host hay que reemplazar por el host al que se quiere escanear los puertos abiertos, ya sea con nombre o con ip.  
 
 Uso:
-./scan_ssrf.sh -p <port1,port2,port3...> <host>"
+./scan_ssrf.sh -p <port1,port2,port3...> <host>
   
 Ejemplo:
   
