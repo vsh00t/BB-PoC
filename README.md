@@ -9,16 +9,20 @@ Uso:
 En el parámetro host hay que reemplazar por el host al que se quiere escanear los puertos abiertos, ya sea con nombre o con ip.  
 
 Uso:
+
+```javascript
 ./scan_ssrf.sh -p <port1,port2,port3...> <host>
-  
+```
+
 Ejemplo:
   
   En el script se establecerá la variable host.
   host = "https://misitiovulnerable.com"
   
   Para ejecutar.
-  
+```javascript
   ./scan_ssrf.sh -p 25,80,443,8080 www.google.com
-  
+```
+
   Esto escaneará los puertos 25,80,443,80 en el host www.google.com, todas las peticiones del escaneo llegarán originados desde la dirección ip del host misitiovulnerable.com.  
 
